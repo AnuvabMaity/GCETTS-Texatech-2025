@@ -1,5 +1,5 @@
 # Texatech 2025 Event Page
-**Created by**: Anuvab Maity
+**Developed by**: Team Overclock
 
 ## Project Description
 This repository contains the official webpage for **Texatech 2025**, a vibrant and innovative tech festival. It showcases all the necessary details about the event, including schedules, highlights, and timeline. Do visit!
