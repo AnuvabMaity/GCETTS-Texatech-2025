@@ -9,7 +9,7 @@ This repository contains the official webpage for **Texatech 2025**, a vibrant a
 We at GCETTS intive you to **Texatech** - our college's annual tech fest that brings together tech enthusiasts, students, and industry professionals for a celebration of creativity and innovation. The festival includes workshops, hackathons, gaming tournaments, keynote sessions, and project showcases, making it a hub for learning and networking.
 
 ### Event Details:
-- **Date**: Coming Soon
+- **Date**: 1st May-3rd May
 - **Venue**: GCETTS Campus
 
 ---
