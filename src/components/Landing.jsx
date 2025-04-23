@@ -20,7 +20,7 @@ const Landing = () => {
               TEXATECH
             </h1>
 
-            <p className="text-base font-medium text-center md:text-left fontsize-heading text-shadow-title"> -coming soon at GCETTS Campus</p>
+            <p className="text-base font-medium text-center md:text-left fontsize-heading text-shadow-title"> 1st-3rd May, 2025 <br /> at GCETTS Campus</p>
           </div>
           <Link href="/register"> <button className="flex items-center justify-center border-violet-400 border-2 bg-violet-900 rounded-lg px-2 text-white hover:bg-violet-800 hover:text-white text-4xl transition-all duration-300 shadow-sm p-2 py-3 my-4 cursor-pointer hover:scale-110"><QrCode size={35} className="mr-2" />Register Now</button>
           </Link>

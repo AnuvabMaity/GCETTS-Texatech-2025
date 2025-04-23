@@ -11,7 +11,7 @@ import {
 
 const Footer = () => {
   return (
-    <div className="w-full bg-gray-950 py-8 text-white font-sans relative overflow-hidden border-t-2 border-violet-500">
+    <div className="w-full bg-gray-950 py-8 text-white font-montserrat relative overflow-hidden border-t-2 border-violet-500">
       {/* Neon glow effect */}
       <div className="absolute top-0 left-1/2 w-2/3 h-1 bg-violet-600 rounded-full blur-md opacity-80"></div>
       <div className="absolute -bottom-6 left-1/4 w-1/2 h-12 bg-violet-700 rounded-full blur-3xl opacity-30"></div>
