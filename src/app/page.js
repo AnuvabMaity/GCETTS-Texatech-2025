@@ -9,10 +9,9 @@ const Home = () => {
   const cultevents = ['Extempore', 'Debate', 'Recitation', 'Drawing', 'Chess'];
 
   const sponsors = [
-    { id: 1, name: "Oerlikon Textile", logo: "https://cdn.brandfetch.io/idd7INCOuX/theme/dark/logo.svg?c=1dxbfHSJFAPEGdCLU4o5B" },
-    { id: 2, name: "Geogo", logo: "images/geogo.png" }
-    // { id: 2, name: "Sponsor 2", logo: "images/comingsoon.png" },
-    // { id: 3, name: "Sponsor 3", logo: "images/comingsoon.png" },
+    { id: 1, name: "Geogo", logo: "images/geogo.png", website: "https://geogo.in/" },
+    { id: 2, name: "Oerlikon Textile", logo: "https://cdn.brandfetch.io/idd7INCOuX/theme/dark/logo.svg?c=1dxbfHSJFAPEGdCLU4o5B", website: "https://oerlikon.com/" },
+    { id: 3, name: "Unstop", logo: "https://d8it4huxumps7.cloudfront.net/uploads/images/unstop/branding-guidelines/logos/blue/Unstop-Logo-Blue.svg", website: "https://unstop.com/" },
     // { id: 4, name: "Sponsor 4", logo: "images/comingsoon.png" },
   ];
 

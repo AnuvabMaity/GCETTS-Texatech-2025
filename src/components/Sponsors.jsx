@@ -6,11 +6,13 @@ const Sponsors = ({sponsors}) => {
       key={sponsor.id}
       className="sponsor-logo transition-all duration-300 hover:scale-110"
     >
+      <a href={sponsor.website} target="_blank" rel="noopener noreferrer">
       <img
         src={sponsor.logo}
         alt={`${sponsor.name} logo`}
-        className="w-42 hover:grayscale-0 transition-all duration-300"
+        className="w-40 hover:grayscale-0 transition-all duration-300"
       />
+      </a>
     </div>
   ))
 

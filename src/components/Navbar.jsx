@@ -12,8 +12,8 @@ const Navbar = () => {
     <div className="fixed z-10 w-full bg-black/70">
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between py-3">
-          <div className="flex items-center">
-            <a href="#home" className="text-2xl font-bold text-white hover:text-purple-400 transition-colors duration-300">Logo</a>
+          <div className="flex items-center drop-shadow-2xl hover:drop-shadow-[0_0_4px_rgba(255,255,255,1)]">
+            <a href="#home" className="text-2xl font-bold text-white font-audioWide">Texatech</a>
           </div>
 
           <div className="hidden md:flex items-center space-x-8">
@@ -24,7 +24,11 @@ const Navbar = () => {
               <li><a href="/#timeline" className="hover:text-purple-400 transition-colors duration-300">Timeline</a></li>
               <li><a href="/#about" className="hover:text-purple-400 transition-colors duration-300">About</a></li>
             </ul>
-            <button className="border-2 border-purple-600 rounded-lg py-1 px-4 text-purple-600 hover:bg-purple-600 hover:text-white transition-all duration-300">Contact Us</button>
+            <a href="mailto:entropy@gcetts.ac.in">
+              <button className="border-2 border-purple-600 rounded-lg py-1 px-4 text-purple-600 hover:bg-purple-600 hover:text-white transition-all duration-300">
+                  Contact Us
+              </button>
+            </a>
           </div>
 
           <div className="md:hidden lg:hidden">

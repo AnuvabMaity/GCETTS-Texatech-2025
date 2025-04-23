@@ -1,7 +1,7 @@
 import React from "react";
 import {
-  Github,
-  Twitter,
+  Facebook,
+  Instagram,
   Linkedin,
   Mail,
   Globe,
@@ -16,35 +16,39 @@ const Footer = () => {
       <div className="absolute top-0 left-1/2 w-2/3 h-1 bg-violet-600 rounded-full blur-md opacity-80"></div>
       <div className="absolute -bottom-6 left-1/4 w-1/2 h-12 bg-violet-700 rounded-full blur-3xl opacity-30"></div>
 
-      <div className="container mx-auto px-4 grid grid-cols-1 md:grid-cols-2 gap-12 relative z-10">
+      <div className="container mx-auto px-4 grid grid-cols-1 md:grid-cols-2 gap-12 relative">
         {/* About Section */}
         <div className="space-y-4">
           <h3 className="text-xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-violet-400 to-blue-500">
-            Quantum AI Solutions
+            Government College of Engineering and Textile Technology, Serampore
           </h3>
-          <p className="text-gray-300 max-w-md">
-            Pioneering the future of artificial intelligence with cutting-edge
-            neural networks and machine learning algorithms that transform how
-            we interact with technology.
+          <p className="text-gray-300 max-w-md text-justify">
+            To be a Centre of Excellence in Technical Education through academic
+            excellence, thereby catering to the needs of the industry and
+            society and fostering industry ready professional minds and
+            entrepreneurial attitude.
           </p>
 
           {/* Social Media Icons */}
           <div className="flex space-x-4 pt-2">
             <a
-              href="#"
+              href="https://www.facebook.com/gcettsstudentsunion2k18"
               className="hover:text-violet-400 transition-colors duration-300 group"
+              target="_blank"
             >
-              <Github className="group-hover:stroke-violet-400" size={20} />
+              <Facebook className="group-hover:stroke-violet-400" size={20} />
             </a>
             <a
-              href="#"
+              href="https://www.instagram.com/texavision_2k25_official/?igsh=YzljYTk1ODg3Zg%3D%3D"
               className="hover:text-violet-400 transition-colors duration-300 group"
+              target="_blank"
             >
-              <Twitter className="group-hover:stroke-violet-400" size={20} />
+              <Instagram className="group-hover:stroke-violet-400" size={20} />
             </a>
             <a
-              href="#"
+              href="https://www.linkedin.com/school/government-college-of-engineering-and-textile-technology-srerampore/"
               className="hover:text-violet-400 transition-colors duration-300 group"
+              target="_blank"
             >
               <Linkedin className="group-hover:stroke-violet-400" size={20} />
             </a>
@@ -66,17 +70,28 @@ const Footer = () => {
             <div className="flex items-center space-x-3">
               <Globe className="text-violet-400" size={18} />
               <p className="text-gray-300">
-                12, William Carey Road, Serampore, Hooghly
+                <a
+                  href="https://maps.app.goo.gl/y1whVsJKJJQxJMnv7"
+                  target="_blank"
+                >
+                  12, William Carey Road, Serampore, Hooghly
+                </a>
               </p>
             </div>
             <div className="flex items-center space-x-3">
               <Mail className="text-violet-400" size={18} />
-              <p className="text-gray-300">entropy@gcetts.ac.in</p>
+              <p className="text-gray-300">
+                <a
+                  href="mailto:gcettsstudentsunion2025@gmail.com"
+                >
+                  gcettsstudentsunion2025@gmail.com
+                </a>
+              </p>
             </div>
           </div>
 
           {/* Newsletter Signup */}
-          <div className="mt-4 pt-2">
+          {/* <div className="mt-4 pt-2">
             <p className="text-sm text-gray-400 mb-2">
               Stay updated with our latest innovations
             </p>
@@ -90,14 +105,14 @@ const Footer = () => {
                 Subscribe
               </button>
             </div>
-          </div>
+          </div>*/}
         </div>
       </div>
 
       {/* Copyright */}
       <div className="container mx-auto px-4 mt-8 pt-6 border-t border-gray-800 text-center">
         <p className="text-sm text-gray-400">
-          &copy; {new Date().getFullYear()} Quantum AI Solutions. All rights
+          &copy; {new Date().getFullYear()} GCETTS-Texatech. All rights
           reserved.
         </p>
       </div>

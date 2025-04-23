@@ -27,8 +27,8 @@ const EventCard = ({ event, index }) => {
       {/* Content */}
       <div className="relative p-6 h-full flex flex-col backdrop-blur-sm backdrop-filter">
         {/* Holographic badge */}
-        <div className="absolute -right-2 -top-2 bg-gradient-to-r from-violet-500 to-purple-500 text-xs font-bold py-1 px-3 rounded-bl-lg rounded-tr-lg shadow-lg text-white transform rotate-12">
-          Event {index + 1}
+        <div className="absolute -right-2 -top-2 bg-gradient-to-r from-violet-500 to-purple-500 text-xs font-bold py-1 px-3 rounded-bl-lg rounded-tr-lg shadow-lg text-white transform rotate-12 h-1/10 w-1/5">
+          {/* Event {index + 1} */}
         </div>
 
         {/* Title with glow effect */}
