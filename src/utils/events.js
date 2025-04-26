@@ -46,5 +46,11 @@ export const events = [
         "description": "Solve numerical and logical puzzles under a time constraint.",
         "brochure_link": "https://drive.google.com/file/d/1Aq9Eo6GkKsYnf1KqbNxNo0xoCf4hZwby/view?usp=sharing",
         "gform_link": "https://docs.google.com/forms/d/e/1FAIpQLSeRCKT3zFa-4L7s-yr8ili_mNLQA_8kvBmiKXAwh8bWLyUP4w/viewform"
+    },
+    {
+        "event_name": "CAPTURA",
+        "description": "Unleash your inner photographer and capture moments that tell a story.",
+        "brochure_link": "https://drive.google.com/file/d/157JCKVJKGIVLBMEE73C0Eh9PcuUqzvig/view?usp=sharing",
+        "gform_link": "https://docs.google.com/forms/d/e/1FAIpQLSe5nE-pKy5PT7hTtGBqHNxSWrzVaYRfKZKbrRCyXgd61wYW2g/viewform"
     }
 ]
