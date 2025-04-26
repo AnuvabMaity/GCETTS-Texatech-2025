@@ -5,8 +5,8 @@ import Timeline from '@/components/Timeline';
 import About from '@/components/About';
 
 const Home = () => {
-  const techevents = ['INNOVA', 'LOGIQ', 'Sudoku', 'Paper Presentation', 'Aptitude'];
-  const cultevents = ['Extempore', 'Debate', 'Recitation', 'Drawing', 'Chess'];
+  const logicstratevents = ['INNOVA', 'LOGIQ', 'THINKFAST', 'CHESS', 'DEBATTLE'];
+  const createinnovateevents = ['UNSCRIPTED', 'CAPTURA', 'ELOQUENCE', 'COLOURSPLASH'];
 
   const sponsors = [
     { id: 1, name: "Geogo", logo: "images/geogo.png", website: "https://geogo.in/" },
@@ -20,8 +20,8 @@ const Home = () => {
       <Landing />
       <div className="bg-[url('/images/BG.png')] h-auto w-full bg-cover relative overflow-x-hidden">
         <Sponsors sponsors={sponsors} />
-        <Events heading='Technical Events' contents={techevents} rotation={345} />
-        <Events heading='Cultural Events' contents={cultevents} rotation={15} />
+        <Events heading='Logic & Strategy' contents={logicstratevents} rotation={345} />
+        <Events heading='Creation & Innovation' contents={createinnovateevents} rotation={15} />
         <Timeline />
         <About />
       </div>
